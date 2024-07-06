@@ -4,8 +4,9 @@ import css from './App.module.css';
 // import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallback';
 // import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
 // import NavBarSimple from './components/NavBarSimple';
-import EventsClass from './components/EventsClass';
-import EventsFunctional from './components/EventsFunctional';
+// import EventsClass from './components/EventsClass';
+// import EventsFunctional from './components/EventsFunctional';
+import EventBinding from './components/EventBinding';
 
 
 function App() {
@@ -16,8 +17,9 @@ function App() {
       {/* <StatefulGreetingWithCallback /> */}
       {/* <StatefulGreetingWithPrevState /> */}
       {/* <NavBarSimple /> */}
-      <EventsFunctional />
-      <EventsClass />
+      {/* <EventsFunctional />
+      <EventsClass /> */}
+      <EventBinding />
 
     </div>
   );
