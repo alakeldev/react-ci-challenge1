@@ -14,8 +14,7 @@ function App() {
       {/* <StatefulGreetingWithCallback /> */}
       {/* <StatefulGreetingWithPrevState /> */}
       <NavBarSimple />
-
-
+      
     </div>
   );
 }
