@@ -3,7 +3,9 @@ import css from './App.module.css';
 // import StatefulGreeting from './components/StatefulGreeting';
 // import StatefulGreetingWithCallback from './components/StatefulGreetingWithCallback';
 // import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
-import NavBarSimple from './components/NavBarSimple';
+// import NavBarSimple from './components/NavBarSimple';
+import EventsClass from './components/EventsClass';
+import EventsFunctional from './components/EventsFunctional';
 
 
 function App() {
@@ -13,8 +15,10 @@ function App() {
       {/* <StatefulGreeting greeting = "I'm stateful class component" name = "Alakel"/> */}
       {/* <StatefulGreetingWithCallback /> */}
       {/* <StatefulGreetingWithPrevState /> */}
-      <NavBarSimple />
-      
+      {/* <NavBarSimple /> */}
+      <EventsFunctional />
+      <EventsClass />
+
     </div>
   );
 }
