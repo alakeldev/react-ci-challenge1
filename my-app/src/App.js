@@ -12,7 +12,8 @@ import css from './App.module.css';
 // import NestingComponents from './components/NestingComponents';
 // import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 // import NavBarForm from './components/NavBarForm';
-import RenderingLists from './components/RenderingLists';
+// import RenderingLists from './components/RenderingLists';
+import Content from './components/Content';
 
 function App() {
   return (
@@ -30,8 +31,8 @@ function App() {
       {/* <NestingComponents /> */}
       {/* <MethodsAsPropsParent /> */}
       {/* <NavBarForm /> */}
-      <RenderingLists />
-
+      {/* <RenderingLists /> */}
+      <Content />
       
     </div>
   );
