@@ -11,7 +11,8 @@ import css from './App.module.css';
 // import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 // import NestingComponents from './components/NestingComponents';
 // import MethodsAsPropsParent from './components/MethodsAsPropsParent';
-import NavBarForm from './components/NavBarForm';
+// import NavBarForm from './components/NavBarForm';
+import RenderingLists from './components/RenderingLists';
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       <ConditionalRenderingClass /> */}
       {/* <NestingComponents /> */}
       {/* <MethodsAsPropsParent /> */}
-      <NavBarForm />
+      {/* <NavBarForm /> */}
+      <RenderingLists />
 
       
     </div>
