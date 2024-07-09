@@ -13,7 +13,8 @@ import css from './App.module.css';
 // import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 // import NavBarForm from './components/NavBarForm';
 // import RenderingLists from './components/RenderingLists';
-import Content from './components/Content';
+// import Content from './components/Content';
+import LifeCyclesCDM from "./components/LifeCyclesCDM";
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
       {/* <MethodsAsPropsParent /> */}
       {/* <NavBarForm /> */}
       {/* <RenderingLists /> */}
-      <Content />
+      {/* <Content /> */}
+      <LifeCyclesCDM />
       
     </div>
   );
