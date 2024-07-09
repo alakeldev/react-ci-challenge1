@@ -23,7 +23,8 @@ import css from './App.module.css';
 // import Sidebar from "./components/Sidebar";
 // import NavBarForm from "./components/NavBarForm";
 // import Content from "./components/Content";
-import ControlledFormHooks from "./components/ControlledFormHooks";
+// import ControlledFormHooks from "./components/ControlledFormHooks";
+import UseStateWithArrays from "./components/UseStateWithArrays";
 
 
 function App() {
@@ -56,9 +57,9 @@ function App() {
       <Sidebar />
       <Content /> */}
 
-      <ControlledFormHooks />
+      {/* <ControlledFormHooks /> */}
       
-
+      <UseStateWithArrays /> 
     </div>
   );
 }
