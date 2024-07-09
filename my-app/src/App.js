@@ -20,9 +20,10 @@ import css from './App.module.css';
 // import UncontrolledForm from './components/UnControlledForm';
 // import ControlledForm from './components/ControlledForm';
 // import SearchBar3 from "./components/SearchBar3";
-import Sidebar from "./components/Sidebar";
-import NavBarForm from "./components/NavBarForm";
-import Content from "./components/Content";
+// import Sidebar from "./components/Sidebar";
+// import NavBarForm from "./components/NavBarForm";
+// import Content from "./components/Content";
+import ControlledFormHooks from "./components/ControlledFormHooks";
 
 
 function App() {
@@ -51,9 +52,12 @@ function App() {
 
       {/* <SearchBar3 /> */}
 
-      <NavBarForm />
+      {/* <NavBarForm />
       <Sidebar />
-      <Content />
+      <Content /> */}
+
+      <ControlledFormHooks />
+      
 
     </div>
   );
