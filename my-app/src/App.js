@@ -19,6 +19,7 @@ import css from './App.module.css';
 // import LifeCyclesCWU from "./components/LifeCyclesCWU";
 // import UncontrolledForm from './components/UnControlledForm';
 // import ControlledForm from './components/ControlledForm';
+import SearchBar3 from "./components/SearchBar3";
 
 
 function App() {
@@ -44,6 +45,8 @@ function App() {
       {/* <LifeCyclesCWU /> */}
       {/* <UncontrolledForm />
       <ControlledForm /> */}
+
+      <SearchBar3 />
 
     </div>
   );
