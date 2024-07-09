@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import importedNames from '../names'
+import { importedNames } from '../names'
 
 export class SearchBar3 extends Component {
     constructor(props) {
