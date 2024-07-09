@@ -14,7 +14,8 @@ import css from './App.module.css';
 // import NavBarForm from './components/NavBarForm';
 // import RenderingLists from './components/RenderingLists';
 // import Content from './components/Content';
-import LifeCyclesCDM from "./components/LifeCyclesCDM";
+// import LifeCyclesCDM from "./components/LifeCyclesCDM";
+import LifeCyclesCDU from "./components/LifeCyclesCDU";
 
 function App() {
   return (
@@ -34,8 +35,8 @@ function App() {
       {/* <NavBarForm /> */}
       {/* <RenderingLists /> */}
       {/* <Content /> */}
-      <LifeCyclesCDM />
-      
+      {/* <LifeCyclesCDM /> */}
+      <LifeCyclesCDU />
     </div>
   );
 }
