@@ -19,7 +19,10 @@ import css from './App.module.css';
 // import LifeCyclesCWU from "./components/LifeCyclesCWU";
 // import UncontrolledForm from './components/UnControlledForm';
 // import ControlledForm from './components/ControlledForm';
-import SearchBar3 from "./components/SearchBar3";
+// import SearchBar3 from "./components/SearchBar3";
+import Sidebar from "./components/Sidebar";
+import NavBarForm from "./components/NavBarForm";
+import Content from "./components/Content";
 
 
 function App() {
@@ -46,7 +49,11 @@ function App() {
       {/* <UncontrolledForm />
       <ControlledForm /> */}
 
-      <SearchBar3 />
+      {/* <SearchBar3 /> */}
+
+      <NavBarForm />
+      <Sidebar />
+      <Content />
 
     </div>
   );
