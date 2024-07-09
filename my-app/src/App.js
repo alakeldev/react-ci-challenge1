@@ -24,7 +24,8 @@ import css from './App.module.css';
 // import NavBarForm from "./components/NavBarForm";
 // import Content from "./components/Content";
 // import ControlledFormHooks from "./components/ControlledFormHooks";
-import UseStateWithArrays from "./components/UseStateWithArrays";
+// import UseStateWithArrays from "./components/UseStateWithArrays";
+import UseStateWithObjects from './components/UseStateWithObjects';
 
 
 function App() {
@@ -59,7 +60,10 @@ function App() {
 
       {/* <ControlledFormHooks /> */}
       
-      <UseStateWithArrays /> 
+      {/* <UseStateWithArrays /> */}
+
+
+      <UseStateWithObjects />
     </div>
   );
 }
