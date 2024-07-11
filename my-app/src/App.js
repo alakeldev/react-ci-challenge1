@@ -29,8 +29,8 @@ import css from './App.module.css';
 // import UseEffectCounter from "./components/UseEffectCounter";
 // import UseEffectCounterContainer from './components/UseEffectCounterContainer';
 // import ContentHooks from "./components/ContentHooks";
-import HTTPRequests from './components/HTTPRequests';
-
+// import HTTPRequests from './components/HTTPRequests';
+import HTTPPost from './components/HTTPPost';
 
 function App() {
   return (
@@ -75,7 +75,9 @@ function App() {
 
       {/* <ContentHooks /> */}
 
-      <HTTPRequests />
+      {/* <HTTPRequests /> */}
+      <HTTPPost />
+
     </div>
   );
 }
