@@ -30,9 +30,7 @@ export class HTTPPost extends Component {
   }
 
   render() {
-
     const {apiResponse} = this.state;
-
     return (
       <div>
         <button onClick={this.postToApi}>
